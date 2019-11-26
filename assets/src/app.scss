@@ -1,0 +1,43 @@
+
+@import "bootstrap";
+@import "~startbootstrap-sb-admin-2/scss/sb-admin-2";
+@import "~startbootstrap-sb-admin-2/vendor/datatables/dataTables.bootstrap4.min.css";
+
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+
+@import '~jquery-ui/themes/base/all.css';
+@import '~gijgo/css/gijgo.min.css';
+
+
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #0575A2;
+$size:15px;
+
+h1 {
+  font: 50% $font-stack;
+  color: $primary-color;
+  font-size:$size;
+}
+
+
+.mielogo {
+  background: url(https://img.decision-achats.fr/Img/BREVE/2014/2/233202/pause-cafe-rituel-sous-estime-par-managers-F.jpg?_ga=2.116772486.1200324385.1574380162-190550300.1574380162);
+  background-position: center;
+  width:80%;
+  background-size: cover;
+}
+.form_input_ci {
+  font-size: 0.8rem;
+  border-radius: 10rem;
+  padding: 0.3rem 1rem;
+}
+
+.gj-tree-bootstrap-4 ul.gj-list-bootstrap li {
+  border: 0;
+  border-radius: 0;
+  color: white;
+  background-color: transparent;
+}

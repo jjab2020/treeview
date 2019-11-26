@@ -1,0 +1,31 @@
+{
+  "name": "assets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2",
+    "bootstrap": "^4.3.1",
+    "fibers": "^4.0.2",
+    "gijgo": "^1.9.13",
+    "jquery": "^3.4.1",
+    "jquery-ui": "^1.12.1",
+    "node-sass": "^4.13.0",
+    "popper.js": "^1.15.0",
+    "startbootstrap-sb-admin-2": "^4.0.7"
+  },
+  "devDependencies": {
+    "laravel-mix": "^5.0.0",
+    "resolve-url-loader": "^3.1.0",
+    "sass": "^1.23.0",
+    "sass-loader": "^8.0.0",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
