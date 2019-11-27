@@ -14,8 +14,10 @@
 
         <!-- Heading -->
         <div class="sidebar-heading">
-            Les thèmes principaux
+           Les Actions
         </div>
+        <!-- Divider -->
+        <hr class="sidebar-divider">
 
      <div class="panel-body">
      <div class="col-md-12" id="treeview_json">
